@@ -21,7 +21,7 @@ export default defineConfig(() => {
     plugins: [dts()],
 
     build: {
-      outDir: "lib",
+      outDir: "dist",
 
       minify: true,
       lib: {
