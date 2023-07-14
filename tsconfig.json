@@ -18,8 +18,13 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      // 别名
+      "solar-ui": ["./src"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "stories"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
