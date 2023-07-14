@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|jsx|ts|tsx|json)\"",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "docs:build": "storybook build",
+    "docs:deploy": "storybook build && gh-pages -d storybook-static"
   },
   "dependencies": {
     "react": "^18.2.0",
