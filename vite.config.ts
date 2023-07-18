@@ -27,10 +27,7 @@ export default defineConfig(() => {
 
     build: {
       outDir: 'dist',
-      lib: {
-        entry: entries,
-        formats: ['es'],
-      },
+      lib: { entry: entries },
 
       rollupOptions: {
         // 确保外部化处理那些你不想打包进库的依赖

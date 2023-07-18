@@ -1,3 +1,4 @@
+# Solar UI
 
 ## 开发模式
 
@@ -10,9 +11,14 @@ pnpm dev
 
 先注册一个 npm 账号
 
+登录
+
+```bash
+npm login --registry=https://registry.npmjs.org
+```
+
 ```bash
 pnpm build
-npm login --registry=https://registry.npmjs.org
 npm publish --access=public --registry=https://registry.npmjs.org
 ```
 
